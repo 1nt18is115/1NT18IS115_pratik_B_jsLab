@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Video Games</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1>Enter game details</h1>
+        <form name="form">
+            <input placeholder="name" name="name">
+            <input placeholder="price" name="price">
+            <input placeholder="rating" name="rating">
+            <br>
+            <br>
+            <input type="button" value="submit" onclick="inputdet()">
+            <input type="button" value="print" onclick="printarr()">
+            <br>
+            <br>
+            <p>Enter the game details you want to know about: <input type="text" name="text"></p>
+            <input type="button" value="submit" onclick="search()">
+        </form>
+        <!-- <script src="games.json"></script> -->
+        <script src="games.js"></script>
+        <!-- <script>
+            // var mydata = JSON.parse(games_det)
+
+let iname;
+let iprice;
+let irating;
+
+function inputdet() {
+    iname = document.form.name.value;
+    iprice = document.form.price.value;
+    irating = document.form.rating.value;
+    // console.log(iname);
+    // console.log(iprice);
+    // console.log(irating);
+
+    let new_game = {
+        name: iname,
+        price: iprice,
+        rating: irating
+    }
+
+    games_array.push(new_game);
+    // printarr();
+}
+
+games_array = [
+    {
+        name: "GTA5",
+        price: "2000",
+        rating: "8"
+    },
+    {
+        name: "Need for Speed",
+        price: "1000",
+        rating: "7"
+    },
+    {
+        name: "Clash of Clans",
+        price: "Free",
+        rating: "9"
+    }
+]
+
+
+function printarr() {
+    // console.log(employee_array);
+    for (let x of games_array)   {
+        console.log(x.name);
+        console.log(x.price);
+        console.log(x.rating);
+    }
+    for(let x of games_array)   {
+        document.form.text.value = x.name;
+    }
+    // console.log(mydata[0].name);
+}
+        </script> -->
+    </body>
+
+</html>
