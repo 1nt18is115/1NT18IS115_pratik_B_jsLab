@@ -1,0 +1,38 @@
+#outer_bound    {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inner_bound    {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#inner_chamber  {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#inner_path {
+    border: 2px solid black;
+    width: 400px;
+    height: 75px;
+    background-color: blue;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 50px;
+}
