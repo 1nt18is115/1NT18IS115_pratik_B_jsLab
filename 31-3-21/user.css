@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+.form_class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.right_align    {
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+}
