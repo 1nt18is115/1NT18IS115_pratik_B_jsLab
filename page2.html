@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Bill</title>
+    <link rel="stylesheet" href="css/bill.css">
+</head>
+<body>
+
+    
+
+    <div class="bill">
+        <h1>Bill Page</h1>
+        <div class="veggies">
+            <h4>Veggies</h4>
+                <div class="veggies-item">
+                    <p>Veggies 1</p>
+                    <p>Rate Rs.50/kg</p>
+                    <img src="https://www.pngarts.com/files/4/Eggplant-PNG-Download-Image.png">
+                <button type="button" onClick="onClick()">Add me</button>
+                
+                
+                <button type="button" onClick="onClickminus()">Subtract me</button>
+                <p>Taken: <a id="clicks">0</a></p>
+                
+                <script src="page2.js"></script>
+                </div>
+        </div>
+
+        <div class="fruits">
+        <h4>Fruits</h4>
+        <div class="veggies-item">
+            <p>fruits 1</p>
+            <p>Rate Rs.60/kg</p>
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages6.fanpop.com%2Fimage%2Fphotos%2F34900000%2FApple-fruit-34914774-693-693.jpg&f=1&nofb=1">
+            <button type="button" onClick="onClickfruit()">Add me</button>
+        
+        
+            <button type="button" onClick="onClickminusfruit()">Subtract me</button>
+            <p>Taken: <a id="clicksfruit">0</a></p>
+        
+            <script src="page2.js"></script>
+        </div>
+        </div>
+
+
+        <div class="cart-summary">
+            <h3>
+                Bill Summary
+            </h3>
+            <div>
+                <p id="billsum">Total amount =<a id="billamount"></a></p>
+            </div>
+
+           
+
+        </div>
+    </div>
+
+    <footer id="footer">
+    
+        <i class="fab fa-twitter footer-icon"></i>
+        <i class="fab fa-facebook-f footer-icon"></i>
+        <i class="fab fa-instagram footer-icon"></i>
+        <i class="fas fa-envelope footer-icon"></i>
+        <p>© Copyright 2021 Jio-Fresh</p>
+    
+    </footer>
+
+    <script src="page2.js"></script>
+</body>
+</html>
